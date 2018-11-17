@@ -32,3 +32,11 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 3rd semester/.ipynb_checkpoints/Data generating-checkpoint.ipynb
+3rd semester/.DS_Store
+.DS_Store
+.DS_Store
+*.aux
+3rd semester/NIR Merzlyakov.log
+*.out
+3rd semester/NIR Merzlyakov.synctex.gz
+3rd semester/NIR Merzlyakov.toc
