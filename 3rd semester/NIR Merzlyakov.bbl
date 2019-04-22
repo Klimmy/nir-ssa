@@ -7,6 +7,14 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{roc-confidence}
+\selectlanguageifdefined{russian}
+J.A.~Hanley~B.J.~McNeil. The Meaning and Use of the Area under a Receiver
+  Operating Characteristic (ROC) Curve~// Radiology.
+\newblock 1982.  April.
+\newblock Т. 143, {№}~1.
+\newblock {С.}~29.{}
+
 \bibitem{hyndman}
 \selectlanguageifdefined{russian}
 Athanasopoulos~Rob J Hyndman;~George. Forecasting: principles and practice.
