@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -7,9 +7,39 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{cp_disser}
+\selectlanguageifdefined{russian}
+Артёмов~А.А. Фильтрация сигналов с трендом
+  в задачах обнаружения разладки. Ph.D. thesis:
+  Институт системного анализа РАН.
+\newblock 2017.
+  \BibAnnote{http://www.machinelearning.ru/wiki/images/6/6a/Presentation.pdf}.{}
+
+\bibitem{esprit}
+\selectlanguageifdefined{russian}
+Roy~R., Kailath~T. {{ESPRIT: estimation of signal parameters via rotational
+  invariance techniques}}~// IEEE Transactions on Acoustics.
+\newblock 1989.
+\newblock Т.~37.
+\newblock {С.}~{984--995}.{}
+
+\bibitem{ruptures}
+\selectlanguageifdefined{russian}
+Charles~Truong, Laurent~Oudre, Nicolas~Vayatis. ruptures: change point
+  detection in Python~// {arXiv e-prints}.
+\newblock 2018.
+\newblock {№}~1801.00826.{}
+
+\bibitem{Golyandina2018}
+\selectlanguageifdefined{russian}
+Golyandina~Nina, Korobeynikov~Anton, Zhigljavsky~Anatoly. Singular Spectrum
+  Analysis with R.
+\newblock 1st ed. {изд.}
+\newblock Springer, 2018.{}
+
 \bibitem{roc-confidence}
 \selectlanguageifdefined{russian}
-J.A.~Hanley~B.J.~McNeil. The Meaning and Use of the Area under a Receiver
+Hanley~J.A., McNeil~B.J. The Meaning and Use of the Area under a Receiver
   Operating Characteristic (ROC) Curve~// Radiology.
 \newblock 1982.  April.
 \newblock Т. 143, {№}~1.
@@ -17,18 +47,18 @@ J.A.~Hanley~B.J.~McNeil. The Meaning and Use of the Area under a Receiver
 
 \bibitem{hyndman}
 \selectlanguageifdefined{russian}
-Athanasopoulos~Rob J Hyndman;~George. Forecasting: principles and practice.
+Hyndman~Rob~J, Athanasopoulos~George. Forecasting: principles and practice.
 \newblock OTexts, 2013.{}
 
 \bibitem{golyandina2001}
 \selectlanguageifdefined{russian}
-Nina~Golyandina~Vladimir~Nekrutkin~Anatoly A~Zhigljavsky. Analysis of Time
+Golyandina~Nina, Nekrutkin~Vladimir, Zhigljavsky~Anatoly~A. Analysis of Time
   Series Structure - SSA and Related Techniques.
 \newblock Chapman and Hall/CRC, 2001.{}
 
 \bibitem{dagum}
 \selectlanguageifdefined{russian}
-Estela Bee~Dagum~Silvia~Bianconcini. Seasonal Adjustment Methods and Real Time
+Dagum~Estela~Bee, Bianconcini~Silvia. Seasonal Adjustment Methods and Real Time
   Trend-Cycle Estimation.
 \newblock Springer International Publishing, 2016.{}
 
@@ -40,7 +70,7 @@ Armstrong~J.~Scott. Principles of Forecasting: A Handbook for Researchers and
 
 \bibitem{Golyandina2003}
 \selectlanguageifdefined{russian}
-Н.Э.~Голяндина. Метод „Гусеница``-SSA: прогноз
+Голяндина~Н.Э. Метод „Гусеница``-SSA: прогноз
   временных рядов.
 \newblock СПбГУ, 2003.{}
 
